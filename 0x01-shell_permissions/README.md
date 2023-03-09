@@ -20,4 +20,4 @@ Task 11 Directories. Create a script that adds execute permission to all subdire
 Regular files should not be changed.
 :chmod -+X .
 Task 12. More directories . Create a script that creates a directory called my_dir with permissions 751 in the working directory:#!/bin/bash
-mkdir 751 my_dir
+mkdir -m  751 my_dir
