@@ -11,4 +11,4 @@ Owner: no permission at all
 Group: no permission at all
 Other users: all the permissions
 :chmod ug-rwx,o+rwx hello
-
+Task 9 John Doe.Write a script that sets the mode of the file hello to this -rwxr-x-wx: chmod 753
