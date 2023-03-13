@@ -79,3 +79,6 @@ include capital letters as well
 
 20. Without C, you would live in hiago : Create a script that removes all letters c and C from input.
 + tr -d 'cC'
+
+21. esreveR :Write a script that reverse its input.
++ rev
