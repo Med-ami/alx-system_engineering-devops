@@ -78,4 +78,4 @@ include capital letters as well
 + tr Ac Ze
 
 20. Without C, you would live in hiago : Create a script that removes all letters c and C from input.
-+ tr -d 'Cc'
++ tr -d 'cC'
