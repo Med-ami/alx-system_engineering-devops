@@ -43,4 +43,4 @@ Write a script that counts the number of directories and sub-directories in the 
 The current and parent directories should not be taken into account
 Hidden directories should be counted
 
-+ find . type d -not -name '.' | wc -l
++ find . -type d -not -name '.' | wc -l
