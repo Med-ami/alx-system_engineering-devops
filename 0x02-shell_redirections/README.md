@@ -65,4 +65,4 @@ Words should be sorted
 + grep "bin" /etc/passwd | wc -l
 
 16. What's next? :Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
-+ grep -A "root" /etc/passwd
++ grep -A 'root' /etc/passwd
