@@ -68,4 +68,8 @@ Words should be sorted
 + grep -A 'root' /etc/passwd
 
 17. I hate bins: Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
-+ grep -v "bin" /etc/passwd 
++ grep -v "bin" /etc/passwd
+
+18. Letters only please :Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+include capital letters as well
++ grep '^[[:alpha:]]' /etc/ssh/sshd_config 
