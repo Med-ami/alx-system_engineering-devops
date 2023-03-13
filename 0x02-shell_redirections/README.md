@@ -49,4 +49,4 @@ Hidden directories should be counted
 Requirements:
 One file per line
 Sorted from the newest to the oldest
-+ ls -lt | head
++ ls -t | head
