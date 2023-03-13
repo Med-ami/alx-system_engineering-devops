@@ -12,3 +12,6 @@
 
 4. Last lines of a file : Display the last 10 lines of /etc/passwd
 tail -n 10 /etc/passwd
+ 
+5. I'd prefer the first ones actually : Display the first 10 lines of /etc/passwd
++ head -n 10 /etc/passwd
