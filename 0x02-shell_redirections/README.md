@@ -50,3 +50,10 @@ Requirements:
 One file per line
 Sorted from the newest to the oldest
 + ls -t | head
+
+13. Being unique is better than being perfect
+Create a script that takes a list of words as input and prints only words that appear exactly once.
+Input format: One line, one word
+Output format: One line, one word
+Words should be sorted
++ sort | uniq -u
