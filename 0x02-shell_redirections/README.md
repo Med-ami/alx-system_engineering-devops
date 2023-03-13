@@ -3,3 +3,6 @@
 
 1. Confused smiley : Write a script that displays a confused smiley "(Ôo)'.
 + echo '"(Ôo)'\'
+
+2. Let's display a file : Display the content of the /etc/passwd file.
++ cat /etc/passwd
